@@ -1,0 +1,11 @@
+def is_palindrome(word)
+i = 0
+revWord = ""
+ 	while i < word.length
+      char = word[i]
+      revWord = char + revWord
+      i += 1
+    end
+  	
+  	return  word == revWord 
+end
